@@ -1,3 +1,7 @@
+
+
+
+
 /* logo da pagina */
 .menu-container {
   display: flex;
@@ -53,7 +57,7 @@ ul li a:hover {
 h1 {
     text-align: center;
     margin-top: 30px;
-    color: #c71585;
+    color: #d850a6;
 }
 
 p {
@@ -69,7 +73,7 @@ p {
 /* Seção de Destaques */
 h2 {
     text-align: center;
-    color: #db7093;
+    color: #bb416a;
     margin-top: 40px;
 }
 
@@ -91,7 +95,7 @@ h2 {
 
 .produto h3 {
     margin-top: 10px;
-    color: #800000;
+    color: #830000;
 }
 
 .bolofoto{border-radius: 50px 50px 50px 50px;}

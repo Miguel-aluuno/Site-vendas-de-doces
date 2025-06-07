@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bolos do Pote</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Encomendas | Bolo da Cintia</title>
+    <link rel="stylesheet" href="encomendas.css">
 </head>
 <body>
     <nav>
@@ -17,6 +17,44 @@
     </ul>
   </nav>
 
-    
+  <header>
+    <h1>Bolo no Pote da Cintia</h1>
+    <p>Encomende seu sabor favorito!</p>
+  </header>
+
+  <div class="container">
+    <h2>Formulário de Encomenda</h2>
+    <p>Preencha os dados abaixo para fazer sua encomenda de bolos no pote:</p>
+
+    <form>
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="sabor">Escolha o sabor:</label>
+      <select id="sabor" name="sabor" required>
+        <option value="">-- Selecione --</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="prestigio">Chocolate com Morango</option>
+        <option value="morango">Beijinho</option>
+        <option value="doce-leite">Brigadeiro com Beijinho</option>
+        <option value="chocolate">Surpresa de Uva ( chocolateou misto )</option>
+        <option value="morango">Surpresa de Uva ( Baba de moça )</option>
+        <option value="doce-leite">Surpresa de Morango ( Chocolate ou misto )</option>
+        <option value="prestigio">Surpresa de Morango ( Baba de moça )</option>
+      </select>
+
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" name="quantidade" min="1" required>
+
+      <label for="mensagem">Mensagem ou observações:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Ex: sem lactose, data de entrega, etc."></textarea>
+
+      <button type="submit">Enviar Encomenda</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 Bolos da Cintia — Com carinho e açúcar ♥
+  </footer>    
 </body>
 </html>
