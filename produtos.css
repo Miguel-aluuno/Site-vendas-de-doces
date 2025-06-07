@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+header {
+  background-color: #ffb6b9;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.item {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.07);
+  border-left: 6px solid #ffb6b9;
+}
+
+.item img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.item .info {
+  padding: 20px;
+  flex: 1;
+}
+
+.item h2 {
+  margin-top: 0;
+}
+
+.item span {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e63946;
+  font-size: 1.1em;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888;
+  background-color: #ffe2e5;
+}
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #25d366;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+
+
+
+/* Navegação ( não mexer ) */
+ul {
+    list-style: none;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    border-bottom: 3px solid #ffffff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 8px 8px;
+}
+ul li a {
+    text-decoration: none;
+    color: #4b2c2c;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #ffbbc6;
+}
+
+/* Cabeçalho */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #d850a6;
+}
+
+p {
+    text-align: center;
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
