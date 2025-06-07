@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #ffb6b9;
+  background-color: #ffcecf;
   color: white;
   text-align: center;
   padding: 30px 20px;
@@ -35,7 +35,7 @@ h1 {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0,0,0,0.07);
-  border-left: 6px solid #ffb6b9;
+  border-left: 6px solid #ff9da0;
 }
 
 .item img {
@@ -57,7 +57,7 @@ h1 {
   display: inline-block;
   margin-top: 10px;
   font-weight: bold;
-  color: #e63946;
+  color: #000000;
   font-size: 1.1em;
 }
 
@@ -110,14 +110,14 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #ffbbc6;
+    background-color: #ff7b91;
 }
 
 /* Cabeçalho */
 h1 {
     text-align: center;
     margin-top: 30px;
-    color: #d850a6;
+    color: #3f2e39;
 }
 
 p {
